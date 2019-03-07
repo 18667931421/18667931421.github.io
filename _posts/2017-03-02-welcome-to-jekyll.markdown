@@ -33,6 +33,9 @@ published: true
  let obj2 = {name:'zfd'}
  let {name,age=8} = obj2;
  
+ // 省略赋值
+ let arr = [1,2,3]
+ let [,,j] = arr
  
  
  
