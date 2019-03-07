@@ -27,7 +27,7 @@ published: true
  
  let obj = {name:'zfpx',age:9}
  let {name:myname, age:myage} = obj;
- 
+ => let myname = obj.name
  
  
  
