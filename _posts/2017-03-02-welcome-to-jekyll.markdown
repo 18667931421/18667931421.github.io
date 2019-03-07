@@ -37,5 +37,8 @@ published: true
  let arr = [1,2,3]
  let [,,j] = arr
  
+ 四、字符串
+ 
+ 
  
  
