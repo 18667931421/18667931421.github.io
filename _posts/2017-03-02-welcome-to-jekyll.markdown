@@ -29,5 +29,10 @@ published: true
  let {name:myname, age:myage} = obj;
  => let myname = obj.name
  
+ 默认解构 如果能取出来的值就用取出来的值，如果取不出来就用默认值
+ let obj2 = {name:'zfd'}
+ let {name,age=8} = obj2;
+ 
+ 
  
  
