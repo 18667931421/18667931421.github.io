@@ -25,5 +25,9 @@ published: true
  // 解构的时候，等号两边的结构类似。右边还必须是一个真实的值
  let [a,b,c] = arr;
  
+ let obj = {name:'zfpx',age:9}
+ let {name:myname, age:myage} = obj;
+ 
+ 
  
  
