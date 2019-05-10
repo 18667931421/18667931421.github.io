@@ -35,5 +35,8 @@ new Promise(function(resolve){
 
 方法 Promise.resolve(value); 的返回值也是一个promise对象，所以我们可以像下面那样接着对其返回值进行 .then 调用。
 
+Promise.resolve(1).then(function(value){
+    console.log(value);
+});
 
  
