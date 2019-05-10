@@ -38,7 +38,9 @@ published: false
 例子：
 
 new Promise(function(resolve){
+
     resolve(1);
+    
 });
 
 在这段代码中的 resolve(1); 会让这个promise对象立即进入确定（即resolved）状态，并将 1 传递给后面then里所指定的 onFulfilled 函数。
@@ -46,7 +48,9 @@ new Promise(function(resolve){
 方法 Promise.resolve(value); 的返回值也是一个promise对象，所以我们可以像下面那样接着对其返回值进行 .then 调用。
 
 Promise.resolve(1).then(function(value){
+
     console.log(value);
+    
 });
 
 Promise.resolve作为 new Promise() 的快捷方式，在进行promise对象的初始化或者编写测试代码的时候都非常方便。
@@ -55,7 +59,9 @@ Promise.resolve作为 new Promise() 的快捷方式，在进行promise对象的�
 Promise.reject(error)是和 Promise.resolve(value) 类似的静态方法，是 new Promise() 方法的快捷方式。
 
 Promise.reject(new Error("错误!")).catch(function(error){
+
     console.error(error);
+    
 });
 
 它和Promise.resolve(value) 的不同之处在于promise内调用的函数是reject而不是resolve。
