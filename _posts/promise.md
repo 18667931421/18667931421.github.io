@@ -31,4 +31,9 @@ new Promise(function(resolve){
     resolve(1);
 });
 
+在这段代码中的 resolve(1); 会让这个promise对象立即进入确定（即resolved）状态，并将 1 传递给后面then里所指定的 onFulfilled 函数。
+
+方法 Promise.resolve(value); 的返回值也是一个promise对象，所以我们可以像下面那样接着对其返回值进行 .then 调用。
+
+
  
