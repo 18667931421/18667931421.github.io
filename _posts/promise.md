@@ -22,6 +22,13 @@ published: false
 上面有提到其实用回调函数可以解决异步，那为什么还要使用promise。对于咱们来说，使用回调函数，当层级较深的时候会很容易陷入回调地狱。在我们使用promise的时候，可以多重链式调用，避免层层嵌套回调。除此之外，为了我们的代码更加具有可读性和可维护性，我们需要将数据请求与数据处理明确的区分开来。
 
 **promise基本使用简单介绍**
+一般情况下我们都会使用 new Promise() 来创建promise对象，但是除此之外我们也可以使用其他方法。
+在这里，我们将会学习如何使用 Promise.resolve 和 Promise.reject这两个方法。
+静态方法Promise.resolve(value) 可以认为是 new Promise() 方法的快捷方式。
 
+例子：
+new Promise(function(resolve){
+    resolve(1);
+});
 
  
