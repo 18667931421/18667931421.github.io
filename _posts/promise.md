@@ -39,6 +39,8 @@ Promise.resolve(1).then(function(value){
     console.log(value);
 });
 
+Promise.resolve作为 new Promise() 的快捷方式，在进行promise对象的初始化或者编写测试代码的时候都非常方便。
+
 
 
  
