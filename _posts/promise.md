@@ -47,6 +47,6 @@ Promise.reject(error)是和 Promise.resolve(value) 类似的静态方法，是 n
 Promise.reject(new Error("错误!")).catch(function(error){
     console.error(error);
 });
-
+它和Promise.resolve(value) 的不同之处在于promise内调用的函数是reject而不是resolve。
 
  
