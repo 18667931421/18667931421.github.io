@@ -4,6 +4,7 @@ published: false
  Promise深入浅出
  
 **一、什么是Promise**
+
  The Promise object is used for asynchronous computations. A Promise represents a single asynchronous operation that hasn't completed yet, but is expected in the future.
 译文：Promise对象用于异步操作，它表示一个尚未完成且预计在未来完成的异步操作。
 
