@@ -98,4 +98,4 @@ promise
     .catch(onRejected)
     .then(finalTask);
     
-![]({{site.baseurl}}/http://gwjyhs.com/t6/702/1557478045x2890171761.png)
+[img流程](http://gwjyhs.com/t6/702/1557478045x2890171761.png)
