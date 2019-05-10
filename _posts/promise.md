@@ -49,4 +49,25 @@ Promise.reject(new Error("错误!")).catch(function(error){
 });
 它和Promise.resolve(value) 的不同之处在于promise内调用的函数是reject而不是resolve。
 
+一个简单的例子：
+function taskA() {
+    console.log("Task A");
+}
+function taskB() {
+    console.log("Task B");
+}
+function onRejected(error) {
+    console.log("Catch Error: A or B", error);
+}
+function finalTask() {
+    console.log("Final Task");
+}
+
+var promise = Promise.resolve();
+promise
+    .then(taskA)
+    .then(taskB)
+    .catch(onRejected)
+    .then(finalTask);
+
  
