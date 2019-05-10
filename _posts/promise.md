@@ -69,19 +69,29 @@ Promise.reject(new Error("错误!")).catch(function(error){
 一个简单的例子：
 
 function taskA() {
+
     console.log("Task A");
+    
 }
+
 function taskB() {
+
     console.log("Task B");
+    
 }
 function onRejected(error) {
+
     console.log("Catch Error: A or B", error);
+    
 }
 function finalTask() {
+
     console.log("Final Task");
+    
 }
 
 var promise = Promise.resolve();
+
 promise
     .then(taskA)
     .then(taskB)
