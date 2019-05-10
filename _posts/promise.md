@@ -42,5 +42,11 @@ Promise.resolve(1).then(function(value){
 Promise.resolve作为 new Promise() 的快捷方式，在进行promise对象的初始化或者编写测试代码的时候都非常方便。
 
 
+Promise.reject(error)是和 Promise.resolve(value) 类似的静态方法，是 new Promise() 方法的快捷方式。
+
+Promise.reject(new Error("错误!")).catch(function(error){
+    console.error(error);
+});
+
 
  
