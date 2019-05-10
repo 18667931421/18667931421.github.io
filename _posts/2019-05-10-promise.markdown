@@ -99,3 +99,6 @@ promise
     .then(finalTask);
     
 [img流程](http://gwjyhs.com/t6/702/1557478045x2890171761.png)
+
+
+**四、源码解析**
