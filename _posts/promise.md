@@ -69,5 +69,9 @@ promise
     .then(taskB)
     .catch(onRejected)
     .then(finalTask);
+    
+    ![47F38810-4CA6-4bc2-A0A5-3F4589BA5C57.png]({{site.baseurl}}/_posts/47F38810-4CA6-4bc2-A0A5-3F4589BA5C57.png)
+
+    
 
  
