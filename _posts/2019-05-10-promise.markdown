@@ -105,3 +105,6 @@ promise
 
 https://segmentfault.com/a/1190000002452115
 
+ npm i -g promises-aplus-tests
+ promises-aplus-tests Promise.js
+
